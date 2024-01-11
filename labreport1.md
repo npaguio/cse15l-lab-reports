@@ -20,3 +20,14 @@ Working directory when command ran: `/home`
 After I entered `cd` into the terminal with the argument `lecture1`, there was also no output produced so the command ran successfully and this was not an error. But I had checked the working directory after, and instead of `/home` it was `/home/lecture1`. Although there was no output produced, the working directory changed which can be seen in the text before where I was able to type, where instead of `[user@sahara ~]$` it was `[user@sahara ~/lecture1]$`.
 
 
+**Using** `cd` **with the argument being a path to a file:**
+
+![Image](CDfileargs.png)
+
+Working directory when command ran: `/home/lecture1`
+
+After entering `cd Hello.java` into the terminal, using cd with the argument of a path to a file, I received the output `bash: cd: Hello.java: Not a directory.` Since `cd` doesn’t produce an output when it runs correctly, this was an error as the given output was an error message. `cd` is also supposed to be used to change directories, not to access files or move between them, thus producing the given output and being an error.
+
+
+**Command:** `ls`
+
