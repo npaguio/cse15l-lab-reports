@@ -17,6 +17,6 @@ After entering `cd` into the terminal with no arguments, there was no output pro
 
 Working directory when command ran: `/home`
 
-After I entered cd into the terminal with the argument “lecture1”, there was also no output produced so the command ran successfully and this was not an error. But I had checked the working directory after, and instead of /home it was /home/lecture1. Although there was no output produced, the working directory changed which can be seen in the text before where I was able to type, where instead of [user@sahara ~]$ it was [user@sahara ~/lecture1]$.
+After I entered `cd` into the terminal with the argument `lecture1`, there was also no output produced so the command ran successfully and this was not an error. But I had checked the working directory after, and instead of `/home` it was `/home/lecture1`. Although there was no output produced, the working directory changed which can be seen in the text before where I was able to type, where instead of `[user@sahara ~]$` it was `[user@sahara ~/lecture1]$`.
 
 
