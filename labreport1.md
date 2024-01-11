@@ -2,5 +2,6 @@
 **Command:** `cd`
 
 **Using** `cd` **with no argument:**
+
 ![Image](CDnoargs.png)
 
