@@ -31,11 +31,44 @@ After entering `cd Hello.java` into the terminal, using cd with the argument of 
 
 **Command:** `ls`
 
-**Using** `ls` **with the argument being a path to a file:**
+**Using** `ls` **with no argument:**
 
 ![Image](LSnoargs.png)
 
 Working directory when command ran: `/home/lecture1`
 
 Once I entered `ls` into the terminal without an argument, I got the output `Hello.class Hello.java messages README` in my terminal. As `ls` is supposed to show the names of what the directory contains, I was shown the 4 parts of the `lecture1` directory, being `Hello.class`, `Hello.java` and `README`, all being files, while messages was in bold blue due to it being a folder. Since `ls` worked as intended, this was not an error.
+
+**Using** `ls` **with the argument being a path to a directory**
+
+![Image](LSdirectargs.png)
+
+Working directory when command ran:
+
+**Using** `ls` **with the argument being a path to a file**
+
+![Image](LSfileargs.png)
+
+Working directory when command ran:
+
+**Command:** `cat`
+
+**Using** `cat` **with no argument**
+
+![Image](CATnoargs.png)
+
+Working directory when command ran:
+
+**Using** `cat` **with the argument being a path to a directory**
+
+![Image](CATdirectargs.png)
+
+Working directory when command ran:
+
+**Using** `cat` **with the argument being a path to a file**
+
+![Image](CATfileargs.png)
+
+Working directory when command ran:
+
 
