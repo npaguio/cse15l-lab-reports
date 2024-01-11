@@ -31,3 +31,8 @@ After entering `cd Hello.java` into the terminal, using cd with the argument of 
 
 **Command:** `ls`
 
+**Using** `ls` **with the argument being a path to a file:**
+
+![Image](LSnoargs.png)
+
+Working directory when command ran: `/home/lecture1'
