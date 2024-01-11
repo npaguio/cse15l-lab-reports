@@ -43,7 +43,9 @@ Once I entered `ls` into the terminal without an argument, I got the output `Hel
 
 ![Image](LSdirectargs.png)
 
-Working directory when command ran:
+Working directory when command ran: `/home`
+
+I had received the output `Hello.class Hello.java messages README`, with messages being in bolded blue. This was due to the fact that `ls` was entered with the argument `lecture1`, being the path to the `lecture1` directory. As `ls` was entered with the argument `lecture1`, the names of the `lecture1` directory’s contents were displayed as the output due to `ls` showing what’s inside the argument. Also since the `ls` program ran as intended, showing the contents of the `lecture1` directory, this was not an error.
 
 **Using** `ls` **with the argument being a path to a file**
 
