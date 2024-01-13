@@ -1,5 +1,5 @@
 ## Nathan Paguio - Lab Report 1
-**Command:** `cd`
+| **Command:** `cd` |
 
 **Using** `cd` **with no argument:**
 
