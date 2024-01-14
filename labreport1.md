@@ -26,6 +26,7 @@
 
  - After entering `cd Hello.java` into the terminal, using `cd` with the argument being a path to a file, I received the output `bash: cd: Hello.java: Not a directory.` Since `cd` doesn’t produce an output when it runs correctly, this was an error as there was an output produced, which was an error message. `cd` is supposed to be used to change directories, not to access files or move between them, thus producing the given output and being an error.
 
+---
 
 ## **Command:** `ls`
 
