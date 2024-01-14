@@ -42,7 +42,7 @@
 
  - Once I entered `ls` into the terminal without an argument, I got the output `Hello.class Hello.java messages README` in my terminal. As `ls` is supposed to show the names of what the directory contains, I was shown the 4 parts of the `lecture1` directory, being `Hello.class`, `Hello.java` and `README`, all being files, while messages was in bold blue due to it being a folder. Since `ls` worked as intended, this was not an error.
 
-### **Using** `ls` **with the argument being a path to a directory**
+### **Using** `ls` **with the argument being a path to a directory:**
 
 ![Image](LSdirectargs.png)
 
@@ -50,7 +50,7 @@
 
  - I had received the output `Hello.class Hello.java messages README`, with messages being in bolded blue. This was due to the fact that `ls` was entered with the argument `lecture1`, being the path to the `lecture1` directory. As `ls` was entered with the argument `lecture1`, the names of the `lecture1` directory’s contents were displayed as the output due to `ls` showing what’s inside the argument. Also since the `ls` program ran as intended, showing the contents of the `lecture1` directory, this was not an error.
 
-### **Using** `ls` **with the argument being a path to a file**
+### **Using** `ls` **with the argument being a path to a file:**
 
 ![Image](LSfileargs.png)
 
@@ -61,7 +61,7 @@
 
 ## **Command:** `cat`
 
-### **Using** `cat` **with no argument**
+### **Using** `cat` **with no argument:**
 
 ![Image](CATnoargs.png)
 
@@ -69,7 +69,7 @@
 
  - When entering `cat` into the terminal with no argument, there was no output produced, but instead my terminal had crashed, being unable to input any other commands after that. Due to the terminal crashing and how the `cat` command is used to print what is in a file, along with the fact that the `cat` command was entered into the terminal without a file to print from, this was an error.
 
-### **Using** `cat` **with the argument being a path to a directory**
+### **Using** `cat` **with the argument being a path to a directory:**
 
 ![Image](CATdirectargs.png)
 
@@ -78,7 +78,7 @@
  - The output I had received was `cat: lecture1: Is a directory`, and this was because I had entered a directory as an argument rather than entering a file as the argument to go along with the `cat` command, showing that I was using an invalid argument for `cat`. This is an error because the given output is an error message thrown due to the use of an invalid argument with the `cat` command, using a directory as the argument for the command rather than a file as intended.
 
 
-### **Using** `cat` **with the argument being a path to a file**
+### **Using** `cat` **with the argument being a path to a file:**
 
 ![Image](CATfileargs.png)
 
