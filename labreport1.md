@@ -84,6 +84,6 @@
 
  - Working directory when command ran: `/home/lecture1`
 
- - I had received this output as this is the code inside of `Hello.java`. Since the `cat` command outputs what the file (argument) contains, the output was the code inside of `Hello.java`. This is not an error as the `cat` command worked as intended.
+ - I had received this output as this is the code inside of `Hello.java`. Since the `cat` command outputs what the argument contains, being what is inside the file, the output was the code inside of `Hello.java`. This is not an error as the `cat` command worked as intended.
 
 
