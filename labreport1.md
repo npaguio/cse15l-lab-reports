@@ -54,6 +54,7 @@
 
  - When entering `ls Hello.java` into the terminal, having `Hello.java` as the argument, the output `Hello.java` is printed as `ls` prints the name of the directory of the working directory or the directory argument. This is odd however, as entering a path to a file as the argument also works and shows only the file name, shrinking the scope of the search/output into just the specific file that is supposed to be found rather than the all of the file names in a directory. As `ls` works as it’s supposed to, outputting the name of a certain directory/file, this is not an error.
 
+---
 
 ## **Command:** `cat`
 
