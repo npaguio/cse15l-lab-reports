@@ -60,7 +60,7 @@
 
 ### **Using** `cat` **with no argument:**
 
-![Image](CATnoargs.png)
+![Image](CATnoargs2.png)
 
  - Working directory when command ran: `/home/lecture1`
 
