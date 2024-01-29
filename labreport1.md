@@ -3,11 +3,11 @@
 
 ### **Using** `cd` **with no argument:**
 
-![Image](CDnoargs.png)
+![Image](CDnoargs2.png)
 
- - Working directory when command ran: `/home`
+ - Working directory when command ran: `/lecture1`
 
- - After entering `cd` into the terminal with no arguments, there was no output produced, indicating that the program ran successfully and there was no error as no output is made when `cd` runs properly. But after checking the working directory, the working directory after the command ran was the same as before the command ran, because there was no argument alongside `cd`, so the directory was not changed at all.
+ - After entering `cd` into the terminal with no arguments, there was no output produced, indicating that the program ran successfully and there was no error as no output is made when `cd` runs properly. However, as seen in line 2, the working directory is no longer `lecture1`, changing back to `/home` as there the green text with the directory name is gone, and after using `pwd` to check the working directory, it is now `/home`.
 
 ### **Using** `cd` **with the argument being a path to a directory:**
 
