@@ -3,7 +3,7 @@
 
 ### **Using** `cd` **with no argument:**
 
-![Image](CDnoargs2.png)
+![Image](CDnoargs3.png)
 
  - Working directory when command ran: `/lecture1`
 
@@ -64,7 +64,7 @@
 
  - Working directory when command ran: `/home/lecture1`
 
- - When entering `cat` into the terminal with no argument, there was no output produced but instead my terminal had crashed, being unable to input any other commands after that. `cat` is used to print what's inside a file, but there was no file or path used since there was no argument alongside `cat`, thus causing the terminal to crash and being an error as `cat` was used without a file to print from.
+ - When entering `cat` into the terminal with no argument, there was no output produced but instead I was no longer able to enter commands. Rather than printing out what was inside of a file used as an argument, using the `cat` command with no argument had led to my arguments being returned, where it would show up once due to me typing it in, and then it would be printed out after entering it. `cat` is used to print what's inside a file, but there was no file or path used since there was no argument alongside `cat`, leading to later arguments being printed. Since `cat` had printed arguments that I entered into the terminal, doing its intended purpose of printing an argument, this was not an error.
 
 ### **Using** `cat` **with the argument being a path to a directory:**
 
