@@ -7,7 +7,7 @@
 
  - Working directory when command ran: `/lecture1`
 
- - After entering `cd` into the terminal with no arguments, there was no output produced, indicating that the program ran successfully and there was no error as no output is made when `cd` runs properly. However, as seen in line 2, the working directory is no longer `lecture1`, changing back to `/home` as there the green text with the directory name is gone, and after using `pwd` to check the working directory, it is now `/home`.
+ - After entering `cd` into the terminal with no arguments, there was no output produced, indicating that the program ran successfully and there was no error as no output is made when `cd` runs properly. However, as seen in line 2, the working directory is no longer `lecture1`, changing to `/home` as the green text with the directory name is gone, and after using `pwd` to check the working directory, the working directory is now `/home`.
 
 ### **Using** `cd` **with the argument being a path to a directory:**
 
@@ -64,7 +64,7 @@
 
  - Working directory when command ran: `/home/lecture1`
 
- - When entering `cat` into the terminal with no argument, there was no output produced but instead I was no longer able to enter commands. Rather than printing out what was inside of a file used as an argument, using the `cat` command with no argument had led to my arguments being returned, where it would show up once due to me typing it in, and then it would be printed out after entering it. `cat` is used to print what's inside a file, but there was no file or path used since there was no argument alongside `cat`, leading to later arguments being printed. Since `cat` had printed arguments that I entered into the terminal, doing its intended purpose of printing an argument, this was not an error.
+ - When entering `cat` into the terminal with no argument, there was no output produced but instead I was no longer able to enter arguments, like other commands such as `cd` that would create some sort of change. Rather than printing out what was inside of a file used as an argument, using the `cat` command with no argument had led to my arguments being returned, where it would be printed in the terminal once due to me typing it in, and then it would be printed out again after entering it. `cat` is used to print what's inside a file, but there was no file or path used since there was no argument alongside `cat`, leading to later arguments being printed. Since `cat` had printed arguments that I entered into the terminal, doing its intended purpose of printing an argument, this was not an error.
 
 ### **Using** `cat` **with the argument being a path to a directory:**
 
