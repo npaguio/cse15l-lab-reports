@@ -1,4 +1,7 @@
-ChatServer code:
+# Nathan Paguio - Lab Report #2
+
+
+## ChatServer code:
 ```
 import java.io.IOException;
 import java.net.URI;
