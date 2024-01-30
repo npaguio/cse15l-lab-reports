@@ -7,7 +7,7 @@
 
  - Working directory when command ran: `/lecture1`
 
- - After entering `cd` into the terminal with no arguments, there was no output produced, indicating that the program ran successfully and there was no error as no output is made when `cd` runs properly. However, as seen in line 2, the working directory is no longer `lecture1`, changing to `/home` as the green text with the directory name is gone, and after using `pwd` to check the working directory, the working directory is now `/home`.
+ - After entering `cd` into the terminal with no arguments, there was no output produced, indicating that the program ran successfully and there was no error as no output is made when `cd` runs properly. However, as seen in line 2, the working directory is no longer `lecture1`, changing to `/home` as the green text with the directory name is gone, and after using `pwd` to check the working directory, the working directory is now `/home`. Since the directory had changed, `cd` worked as intended.
 
 ### **Using** `cd` **with the argument being a path to a directory:**
 
