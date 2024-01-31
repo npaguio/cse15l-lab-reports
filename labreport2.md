@@ -1,6 +1,6 @@
 # Nathan Paguio - Lab Report #2
 
-
+## Part 1:
 ## ChatServer code:
 ```
 import java.io.IOException;
@@ -36,3 +36,14 @@ class ChatServer {
     }
 }
 ```
+## Part 2:
+
+### Absolute path to public key:
+![Image](isPublicKey.png)
+
+### Absolute path to private key and terminal interaction without being asked for a password:
+    - I had tried to redo the process of using `scp` and copying my public SSH key into my ieng6 accout so I wouldn't be asked for a password whenever I logged onto my remote account using `ssh`, but had failed to do so after following the directions in the Week 3 lab writeup. I plan on working on this in the future and fixing this for my resubmission, even attending office hours to get some help.
+![Image](errorKeySS.png)
+
+## Part 3:
+In weeks 2 and 3, I didn’t know how to set up a server and how to log into the school computers through another terminal, whether it was from Edstem or on VSCode on my own computer. It was pretty interesting seeing this all play out and actually work on this rather than using an app or a website to do that. With the server setup, I didn’t know that we could use our web browser and our own computers to create servers and test our code for them, like using `localhost:___`, as well as using ssh to log into one of the ieng computers.
