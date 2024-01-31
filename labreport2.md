@@ -42,7 +42,8 @@ class ChatServer {
 ![Image](isPublicKey.png)
 
 ### Absolute path to private key and terminal interaction without being asked for a password:
-    - I had tried to redo the process of using `scp` and copying my public SSH key into my ieng6 accout so I wouldn't be asked for a password whenever I logged onto my remote account using `ssh`, but had failed to do so after following the directions in the Week 3 lab writeup. I plan on working on this in the future and fixing this for my resubmission, even attending office hours to get some help.
+- I had tried to redo the process of using `scp` and copying my public SSH key into my ieng6 accout so I wouldn't be asked for a password whenever I logged onto my remote account using `ssh`, but had failed to do so after following the directions in the Week 3 lab writeup. I plan on working on this in the future and fixing this for my resubmission, even attending office hours to get some help.
+  
 ![Image](errorKeySS.png)
 
 ## Part 3:
