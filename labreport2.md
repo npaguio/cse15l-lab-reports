@@ -44,7 +44,7 @@ Once the `handleRequest()` method is called after using `/add-message`, the path
 ## Part 2:
 
 ### Absolute path to public key:
-![Image](IsPublicKey.png)
+![Image](publicKeyPath.png)
 
 ### Absolute path to private key and terminal interaction without being asked for a password:
 - I had tried to redo the process of using `scp` and copying my public SSH key into my ieng6 accout so I wouldn't be asked for a password whenever I logged onto my remote account using `ssh`, but had failed to do so after following the directions in the Week 3 lab writeup. I plan on working on this in the future and fixing this for my resubmission, even attending office hours to get some help.
