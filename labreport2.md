@@ -37,6 +37,10 @@ class ChatServer {
 }
 ```
 
+![Image](addMessage1.png)
+
+![Image](addMessage2.png)
+
 In my code, the only method called after using `/add-message` was `handleRequest()`. There are no arguments that the method explicitly takes in, however the `Handler` class has a field called `groupChat`, which is a String object which contains all of the chat messages sent in a server, similar to how a text file would be treated in this context.
 
 Once the `handleRequest()` method is called after using `/add-message`, the path is split into 3 different Strings due to the path for adding a message. `groupChat` is affected where using `/add-message` with the proper formatting will result in the intended behavior of the last String being the username and the 2nd String being the message the user is sending (based on testing/debugging, the 1st String is `/add-message`). After each instance of `/add-message` occuring, the message created from the path is concatenated into the groupChat String with `”\n”` at the end of the message for a line break, giving each message its own line rather than having all of the messages be on the same one.
