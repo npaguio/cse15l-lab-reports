@@ -48,12 +48,14 @@ Once the `handleRequest()` method is called after using `/add-message`, the path
 ## Part 2:
 
 ### Absolute path to public key:
-![Image](publicKeyPath.png)
+![Image](publicKeySS2.png)
 
 ### Absolute path to private key and terminal interaction without being asked for a password:
-- I had tried to redo the process of using `scp` and copying my public SSH key into my ieng6 accout so I wouldn't be asked for a password whenever I logged onto my remote account using `ssh`, but had failed to do so after following the directions in the Week 3 lab writeup. I plan on working on this in the future and fixing this for my resubmission, even attending office hours to get some help.
+![Image](privatekeySS.png)
+
+### Ieng6 Terminal Interaction Without Asking for Password
+![Image](noPWSS.png)
   
-![Image](errorKeySS.png)
 
 ## Part 3:
 In weeks 2 and 3, I didn’t know how to set up a server and how to log into the school computers through another terminal, whether it was from Edstem or on VSCode on my own computer. It was pretty interesting seeing this all play out and actually work on this rather than using an app or a website to do that. With the server setup, I didn’t know that we could use our web browser and our own computers to create servers and test our code for them, like using `localhost:___`, as well as using `ssh` to log into one of the ieng computers. Also, it was nice to see how code made on a workspace like Edstem or VSCode could be seen in action with `localhost` and creating servers on the ieng computers so our classmates could access our code and interact with it, like incrementing numbers as seen in Week 2's lab, as well as creating a server similar to a chatroom in this lab report with skills learned from weeks 2 and 3.
