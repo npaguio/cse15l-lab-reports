@@ -50,7 +50,7 @@ Once the `handleRequest()` method is called after using `/add-message`, the path
 ### Absolute path to public key:
 ![Image](publicKeySS2.png)
 
-### Absolute path to private key and terminal interaction without being asked for a password:
+### Absolute path to private key:
 ![Image](privatekeySS.png)
 
 ### Ieng6 Terminal Interaction Without Asking for Password
