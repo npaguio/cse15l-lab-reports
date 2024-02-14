@@ -67,6 +67,7 @@ The fix in this code works as originally, the argument array was being altered w
 For my command, I decided to research the `find` command. Some of the command options involved being able to find directories within a directory by using the path/argument `-type d` with the find command, finding files based on how old they are with the path `-mtime [+/-(time in days)]`, looking for files that are older than a certain time or made within a certain time span (ex. within the last week), as well as finding a file based on name by using `-name` with the `find command`. The `find` command can also be used to find empty files with the path. (Source: [https://www.redhat.com/sysadmin/linux-find-command#:~:text=10%20ways%20to%20use%20the%20Linux%20find%20command,8%208.%20Find%20empty%20files%20...%20More%20items])
 
 - Disclaimer: I had found my source after looking up "alternate ways to use the find command" online, as typing in "find command-line java" had directed me to websites teaching about command lines and arguments in Java.
+  
 ![Image][searchCommands.png]
 
 ### Finding Directories with `find`:
