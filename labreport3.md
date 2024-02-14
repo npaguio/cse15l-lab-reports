@@ -64,7 +64,10 @@ The fix in this code works as originally, the argument array was being altered w
 ## Part 2:
 ## Researching Commands:
 
-For my command, I decided to research the `find` command. Some of the command options involved being able to find directories within a directory by using the path/argument `-type d` with the find command, finding files based on how old they are with the path `-mtime [+/-(time in days)]`, looking for files that are older than a certain time or made within a certain time span (ex. within the last week), as well as finding files based on what they have (ex. all text files that contain the String value "Birds") by simply using the criteria/what you're looking for with the path `-(contents)`. The `find` command can also be used to find empty files with the path. (Source: [https://www.redhat.com/sysadmin/linux-find-command#:~:text=10%20ways%20to%20use%20the%20Linux%20find%20command,8%208.%20Find%20empty%20files%20...%20More%20items])
+For my command, I decided to research the `find` command. Some of the command options involved being able to find directories within a directory by using the path/argument `-type d` with the find command, finding files based on how old they are with the path `-mtime [+/-(time in days)]`, looking for files that are older than a certain time or made within a certain time span (ex. within the last week), as well as finding a file based on name. The `find` command can also be used to find empty files with the path. (Source: [https://www.redhat.com/sysadmin/linux-find-command#:~:text=10%20ways%20to%20use%20the%20Linux%20find%20command,8%208.%20Find%20empty%20files%20...%20More%20items])
+
+- Disclaimer: I had found my source after looking up "alternate ways to use the find command" online, as typing in "find command-line java" had directed me to websites teaching about command lines and arguments in Java.
+![Image][searchCommands.png]
 
 ### Finding Directories with `find`:
 ```
@@ -82,8 +85,12 @@ $ find -type d
 ./government/Post_Rate_Comm
 ./plos
 ```
+Source: [https://www.redhat.com/sysadmin/linux-find-command#:~:text=10%20ways%20to%20use%20the%20Linux%20find%20command,8%208.%20Find%20empty%20files%20...%20More%20items]
+Here, using `-type d` with the `find` command allows for users to look for directories within their working directory. This is very useful as it allows for people to look at what directories are in their working directory, pointing out directories within that directory to look into in case they were looking for a specific file or needed to change their directory.
+
 
 ```
+aweso@DESKTOP-BNMJGSL MINGW64 ~/Documents/GitHub/docsearch/technical (main)
 $ find ./government -type d
 ./government
 ./government/About_LSC
@@ -93,3 +100,27 @@ $ find ./government -type d
 ./government/Media
 ./government/Post_Rate_Comm
 ```
+Source: [https://www.redhat.com/sysadmin/linux-find-command#:~:text=10%20ways%20to%20use%20the%20Linux%20find%20command,8%208.%20Find%20empty%20files%20...%20More%20items]
+Similarly to the previous example, using `-type d` with the find command allows for users to search for directories within a specific directory they're curious about or looking into, as certain directories may contain files that the user may want to access, so the user would want to change their working directory to a directory within the given results.
+
+### Searching for Files with Certain Criteria with the `find` Command:
+
+### Finding Empty Files with the `find` Command:
+```
+aweso@DESKTOP-BNMJGSL MINGW64 ~/Documents/GitHub/docsearch/technical (main)
+$ find -type f -empty
+./911report/empty.txt
+```
+Source: [https://www.redhat.com/sysadmin/linux-find-command#:~:text=10%20ways%20to%20use%20the%20Linux%20find%20command,8%208.%20Find%20empty%20files%20...%20More%20items]
+With the `find` command and using the path `-type f -empty`, users can search for files in their current directory that have nothing inside them. This could be useful for when someone needs to remove files that may be taking up storage space, or if they're debugging as results or other contents were not printed into a specific file like they wanted.
+
+```
+aweso@DESKTOP-BNMJGSL MINGW64 ~/Documents/GitHub/docsearch/technical (main)
+$ find ./plos -type f -empty
+
+```
+Source: [https://www.redhat.com/sysadmin/linux-find-command#:~:text=10%20ways%20to%20use%20the%20Linux%20find%20command,8%208.%20Find%20empty%20files%20...%20More%20items]
+Also by using the `find` command to look for empty files, users can use this feature of the command to see if their code worked properly and if a String or algorithm was added to an empty file. By seeing if a directory is not empty at all, users can ensure that their code works or that all of their files are not empty at all.
+
+
+
