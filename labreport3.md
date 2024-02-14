@@ -28,3 +28,5 @@ public void testReversed5{
 ### Symptom:
 
 ![Image][arraytestsSS.png]
+
+### Program before Fix:
