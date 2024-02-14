@@ -67,3 +67,29 @@ The fix in this code works as originally, the argument array was being altered w
 For my command, I decided to research the `find` command. Some of the command options involved being able to find directories within a directory by using the path/argument `-type d` with the find command, finding files based on how old they are with the path `-mtime [+/-(time in days)]`, looking for files that are older than a certain time or made within a certain time span (ex. within the last week), as well as finding files based on what they have (ex. all text files that contain the String value "Birds") by simply using the criteria/what you're looking for with the path `-(contents)`. The `find` command can also be used to find empty files with the path. (Source: [https://www.redhat.com/sysadmin/linux-find-command#:~:text=10%20ways%20to%20use%20the%20Linux%20find%20command,8%208.%20Find%20empty%20files%20...%20More%20items])
 
 ### Finding Directories with `find`:
+```
+aweso@DESKTOP-BNMJGSL MINGW64 ~/Documents/GitHub/docsearch/technical (main)
+$ find -type d
+.
+./911report
+./biomed
+./government
+./government/About_LSC
+./government/Alcohol_Problems
+./government/Env_Prot_Agen
+./government/Gen_Account_Office
+./government/Media
+./government/Post_Rate_Comm
+./plos
+```
+
+```
+$ find ./government -type d
+./government
+./government/About_LSC
+./government/Alcohol_Problems
+./government/Env_Prot_Agen
+./government/Gen_Account_Office
+./government/Media
+./government/Post_Rate_Comm
+```
