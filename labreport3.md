@@ -146,3 +146,6 @@ technical/911report/preface.txt
 
 ```
 Source: [https://www.redhat.com/sysadmin/linux-find-command#:~:text=10%20ways%20to%20use%20the%20Linux%20find%20command,8%208.%20Find%20empty%20files%20...%20More%20items]
+Through the use of the `find` command to find files based on their file type, like `.Java` or `.txt` files, users can quickly find specific files in large directories, helping narrow down the amount of files to look through. For example, a directory could contain lots of files, like student `.Java` file submissions, `.png` files, and `.md` files, but the user is looking for error logs and descriptions which are in `.txt` format. Using the `find` command like in the embedded code above allows for users to find these files quickly instead of spending minutes navigating through a large directory.
+
+
