@@ -121,5 +121,28 @@ $ find ./plos -type f -empty
 Source: [https://www.redhat.com/sysadmin/linux-find-command#:~:text=10%20ways%20to%20use%20the%20Linux%20find%20command,8%208.%20Find%20empty%20files%20...%20More%20items]
 Also by using the `find` command to look for empty files, users can use this feature of the command to see if their code worked properly and if a String or algorithm was added to an empty file. By seeing if a directory is not empty at all, users can ensure that their code works or that all of their files are not empty at all.
 
+## Finding Files with the `find` Command Based on File Type:
+```
+aweso@DESKTOP-BNMJGSL MINGW64 ~/Documents/GitHub/docsearch (main)
+$ find technical/911report/*.txt
+technical/911report/chapter-1.txt
+technical/911report/chapter-10.txt
+technical/911report/chapter-11.txt
+technical/911report/chapter-12.txt
+technical/911report/chapter-13.1.txt
+technical/911report/chapter-13.2.txt
+technical/911report/chapter-13.3.txt
+technical/911report/chapter-13.4.txt
+technical/911report/chapter-13.5.txt
+technical/911report/chapter-2.txt
+technical/911report/chapter-3.txt
+technical/911report/chapter-5.txt
+technical/911report/chapter-6.txt
+technical/911report/chapter-7.txt
+technical/911report/chapter-8.txt
+technical/911report/chapter-9.txt
+technical/911report/empty.txt
+technical/911report/preface.txt
 
-
+```
+Source: [https://www.redhat.com/sysadmin/linux-find-command#:~:text=10%20ways%20to%20use%20the%20Linux%20find%20command,8%208.%20Find%20empty%20files%20...%20More%20items]
