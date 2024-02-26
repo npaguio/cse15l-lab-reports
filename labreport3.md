@@ -86,7 +86,7 @@ $ find -type d
 ./government/Post_Rate_Comm
 ./plos
 ```
-Source: [https://www.redhat.com/sysadmin/linux-find-command#:~:text=10%20ways%20to%20use%20the%20Linux%20find%20command,8%208.%20Find%20empty%20files%20...%20More%20items]
+### Source: [https://www.redhat.com/sysadmin/linux-find-command#:~:text=10%20ways%20to%20use%20the%20Linux%20find%20command,8%208.%20Find%20empty%20files%20...%20More%20items]
 Here, using `-type d` with the `find` command allows for users to look for directories within their working directory. This is very useful as it allows for people to look at what directories are in their working directory, pointing out directories within that directory to look into in case they were looking for a specific file or needed to change their directory.
 
 
