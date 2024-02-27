@@ -155,5 +155,5 @@ DocSearchServer.java
 Server.java
 TestDocSearch.java
 ```
-Source: [https://www.redhat.com/sysadmin/linux-find-command#:~:text=10%20ways%20to%20use%20the%20Linux%20find%20command,8%208.%20Find%20empty%20files%20...%20More%20items]
+Source: [https://www.redhat.com/sysadmin/linux-find-command#:~:text=10%20ways%20to%20use%20the%20Linux%20find%20command,8%208.%20Find%20empty%20files%20...%20More%20items]\
 By searching for `.Java` files with the `find` command, users can look for files related to their projects while in a workspace, look for student submissions in the case of grading, or get a list of all the `.Java` files in a directory.
