@@ -86,7 +86,7 @@ $ find -type d
 ./government/Post_Rate_Comm
 ./plos
 ```
-### Source: [https://www.redhat.com/sysadmin/linux-find-command#:~:text=10%20ways%20to%20use%20the%20Linux%20find%20command,8%208.%20Find%20empty%20files%20...%20More%20items]
+Source: [https://www.redhat.com/sysadmin/linux-find-command#:~:text=10%20ways%20to%20use%20the%20Linux%20find%20command,8%208.%20Find%20empty%20files%20...%20More%20items]\
 Here, using `-type d` with the `find` command allows for users to look for directories within their working directory. This is very useful as it allows for people to look at what directories are in their working directory, pointing out directories within that directory to look into in case they were looking for a specific file or needed to change their directory.
 
 
@@ -158,7 +158,7 @@ Server.java
 TestDocSearch.java
 ```
 \
-Source: [https://www.redhat.com/sysadmin/linux-find-command#:~:text=10%20ways%20to%20use%20the%20Linux%20find%20command,8%208.%20Find%20empty%20files%20...%20More%20items]\\
+Source: [https://www.redhat.com/sysadmin/linux-find-command#:~:text=10%20ways%20to%20use%20the%20Linux%20find%20command,8%208.%20Find%20empty%20files%20...%20More%20items]\
 By searching for `.Java` files with the `find` command, users can look for files related to their projects while in a workspace, look for student submissions in the case of grading, or get a list of all the `.Java` files in a directory.
 
 ## Finding Files Based on Time with the `find` Command:
@@ -174,7 +174,7 @@ plos-results.txt
 plos-results2.txt
 ```
 \
-Source: [https://www.redhat.com/sysadmin/linux-find-command#:~:text=10%20ways%20to%20use%20the%20Linux%20find%20command,8%208.%20Find%20empty%20files%20...%20More%20items]\\
+Source: [https://www.redhat.com/sysadmin/linux-find-command#:~:text=10%20ways%20to%20use%20the%20Linux%20find%20command,8%208.%20Find%20empty%20files%20...%20More%20items]\
 Using `-mtime` with `+/-` along with the `find` command allows for users to be able to find files based on how old they are or how long ago they were modified. In this example, the use of `+` with `-mtime` shows files that are older than 1 day as `+` along with the number argument adds further criteria for the `find` command, as the time criteria is the number argument multiplied by 24 (ex. 1 = 1 day). Using the `find` command with `-mtime` can help users find files that are older than a certain time, allowing them to find drafts/files from before a specific day or within a certain time span (ex. `.Java` files made more than 2 days ago).
 
 ```
@@ -184,6 +184,6 @@ technical/newfile.txt
 technical/newtext2.txt
 ```
 \
-Source: [https://www.redhat.com/sysadmin/linux-find-command#:~:text=10%20ways%20to%20use%20the%20Linux%20find%20command,8%208.%20Find%20empty%20files%20...%20More%20items]\\
+Source: [https://www.redhat.com/sysadmin/linux-find-command#:~:text=10%20ways%20to%20use%20the%20Linux%20find%20command,8%208.%20Find%20empty%20files%20...%20More%20items]\
 Instead of using `+` with `-mtime` and the `find` command, `-` allows for users to find files that were modified within the same time span of the given argument, similar to the previous example with the use of `+` and how long ago a file was created. By being able to find files based on how long ago they were modified, users can find files that they had abandoned or forgot about from a long time ago, or find the most recent file they had modified inside of a directory.
 
