@@ -68,7 +68,7 @@ For my command, I decided to research the `find` command. Some of the command op
 
 - Disclaimer: I had found my source after looking up "alternate ways to use the find command" online, as typing in "find command-line java" had directed me to websites teaching about command lines and arguments in Java rather than the `find` command itself.
   
-![Image][searchCommands.png]
+![Image](searchCommands.png)
 
 ### Finding Directories with `find`:
 ```
