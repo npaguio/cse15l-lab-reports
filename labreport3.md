@@ -122,6 +122,7 @@ Source: [https://www.redhat.com/sysadmin/linux-find-command#:~:text=10%20ways%20
 Also by using the `find` command to look for empty files, users can use this feature of the command to see if their code worked properly and if a String or algorithm was added to an empty file. By seeing if a directory is not empty at all, users can ensure that their code works or that all of their files are not empty at all.
 
 ## Finding Files with the `find` Command Based on File Type:
+\
 ```
 aweso@DESKTOP-BNMJGSL MINGW64 ~/Documents/GitHub/docsearch (main)
 $ find technical/911report/*.txt
@@ -145,7 +146,8 @@ technical/911report/empty.txt
 technical/911report/preface.txt
 
 ```
-Source: [https://www.redhat.com/sysadmin/linux-find-command#:~:text=10%20ways%20to%20use%20the%20Linux%20find%20command,8%208.%20Find%20empty%20files%20...%20More%20items]
+\
+Source: [https://www.redhat.com/sysadmin/linux-find-command#:~:text=10%20ways%20to%20use%20the%20Linux%20find%20command,8%208.%20Find%20empty%20files%20...%20More%20items]\\
 Through the use of the `find` command to find files based on their file type, like `.Java` or `.txt` files, users can quickly find specific files in large directories, helping narrow down the amount of files to look through. For example, a directory could contain lots of files, like student `.Java` file submissions, `.png` files, and `.md` files, but the user is looking for error logs and descriptions which are in `.txt` format. Using the `find` command like in the embedded code above allows for users to find these files quickly instead of spending minutes navigating through a large directory.
 
 ```
@@ -155,5 +157,6 @@ DocSearchServer.java
 Server.java
 TestDocSearch.java
 ```
-Source: [https://www.redhat.com/sysadmin/linux-find-command#:~:text=10%20ways%20to%20use%20the%20Linux%20find%20command,8%208.%20Find%20empty%20files%20...%20More%20items]\
+\
+Source: [https://www.redhat.com/sysadmin/linux-find-command#:~:text=10%20ways%20to%20use%20the%20Linux%20find%20command,8%208.%20Find%20empty%20files%20...%20More%20items]\\
 By searching for `.Java` files with the `find` command, users can look for files related to their projects while in a workspace, look for student submissions in the case of grading, or get a list of all the `.Java` files in a directory.
