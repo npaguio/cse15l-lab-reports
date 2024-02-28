@@ -14,7 +14,7 @@ Keys Pressed: `bash test.sh`, similar to step 5 I just typed it in since I didnâ
 
 ### Step 7:
 ![Image](step7.png)\
-Keys Pressed: `vim ListExamples.java ?index2 <enter> <e> <i> <right> <backspace> <2> <esc> :x`, using the shortcuts from `vim tutor` I just followed them to go directly to the last `index2` appearance in `ListExamples.java`, which was where I needed to edit the file to fix the tests. I then pressed `<right>` and `<backspace>` to change `index1` to `index2`, fixing the bug in the file, then `:x` was to save the file.
+Keys Pressed: `vim ListExamples.java ?index2 <enter> <e> <i> <right> <backspace> <2> <esc> :x`, using the shortcuts from `vim tutor` I just followed them to go directly to the last `index2` appearance in `ListExamples.java`, which was where I needed to edit the file to fix the tests. I then pressed `<right>` and `<backspace>` to change `index1` to `index2`, fixing the bug in `ListExamples.java`, then `:x` was to save the file.
 
 ### Step 8:
 ![Image](step8.png)\
