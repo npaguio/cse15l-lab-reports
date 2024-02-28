@@ -10,7 +10,7 @@ Keys Pressed: `git clone https://github.com/npaguio/lab7`, I didn’t think this
 
 ### Step 6:
 ![Image](testTheFiles.png)\
-Keys Pressed: `bash test.sh`, similar to step 5 I just typed it in since I didn’t recall having it in my history.
+Keys Pressed: `bash test.sh`, similar to step 5 I just typed it in since I didn’t recall having it in my history. I also just used `bash test.sh` since I noticed this in the repository at first, so I felt this would be better and save more time compared to using `javac -cp` and compiling the files that way.
 
 ### Step 7:
 ![Image](step7.png)\
