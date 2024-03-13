@@ -13,6 +13,32 @@
 ![Image](ProperOutput.png)
 
 ### Setup Information:
-The files used were `NumPattern.java`, `NumPatternTests.java`, and a `test.sh` file that compiled what was necessary to use `NumPatternTests.java` (ex. JUnit, `NumPatternTests.java` itself). The directory was `Downloads/lab-7-main/lab-7-main
+The files used were `NumPattern.java`, `NumPatternTests.java`, and a `test.sh` file that compiled what was necessary to use `NumPatternTests.java` (ex. JUnit, `NumPatternTests.java` itself). The directory was `Downloads/labreport5code/lab5report`.
+
+#### File Contents Before Bug Fix:
+`NumPattern.java`:
+```
+import java.util.ArrayList;
+import java.util.List;
+
+class NumPattern {
+
+  static List<Integer> pingPong(Integer base) {
+    List<Integer> result = new ArrayList<Integer>();
+    result.add(base);
+    for(int i = 1; i < 5; i++){
+      if(i%2 != 0){
+        result.add(base + 2);
+      }
+      if(i%2 == 0){
+        result.add(base + 4);
+      }
+    }
+    return result;
+  }
+
+}
+
+```
 
 ## Part 2:
