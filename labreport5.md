@@ -5,3 +5,4 @@
 
 ![Image](Symptom1.png)
 
+#### TA: Alright, looking at your symptom, try looking at the method in `NumPattern.java` that's being called in your tester file and see if there are any mistakes in what's being added to the return array. Hope that helps!
