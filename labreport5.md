@@ -15,7 +15,7 @@
 ### Setup Information:
 The files used were `NumPattern.java`, `NumPatternTests.java`, and a `test.sh` file that compiled what was necessary to use `NumPatternTests.java` (ex. JUnit, `NumPatternTests.java` itself). The directory was `Downloads/labreport5code/lab5report`.
 
-#### File Contents Before Bug Fix:
+#### File Contents Before Bug Fix (`NumPatternTests.java` and `test.sh` were not edited at all when fixing the bug):
 `NumPattern.java`:
 ```
 import java.util.ArrayList;
@@ -40,5 +40,6 @@ class NumPattern {
 }
 
 ```
+
 
 ## Part 2:
