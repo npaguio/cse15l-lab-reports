@@ -6,3 +6,7 @@
 ![Image](Symptom1.png)
 
 #### TA: Alright, looking at your symptom, try looking at the method in `NumPattern.java` that's being called in your tester file and see if there are any mistakes in what's being added to the return array. Hope that helps!
+
+#### Student: I tried that and saw that I wasn't updating one of my variables properly, so instead of adding the next integer that's supposed to be in the array, my method would just follow the pattern of adding 2 or 4 to the first element, being the same 2 numbers aside from the original number. In this case, my number pattern array was `{1, 3, 5, 3, 5}` instead of `{1, 3, 7, 9, 13}`. Here's a screenshot of the test working in my terminal, thank you so much for helping me out!
+
+![Image](ProperOutput.png)
