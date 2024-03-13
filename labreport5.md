@@ -15,7 +15,7 @@
 ### Setup Information:
 The files used were `NumPattern.java`, `NumPatternTests.java`, and a `test.sh` file that compiled what was necessary to use `NumPatternTests.java` (ex. JUnit, `NumPatternTests.java` itself). The directory was `Downloads/labreport5code/lab5report`.
 
-#### File Contents Before Bug Fix (`NumPatternTests.java` and `test.sh` were not edited at all when fixing the bug):
+### File Contents Before Bug Fix:
 `NumPattern.java`:
 ```
 import java.util.ArrayList;
@@ -67,5 +67,7 @@ public class NumPatternTests {
 javac -cp ".;lib/hamcrest-core-1.3.jar;lib/junit-4.13.2.jar" *.java
 java -cp ".;lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore NumPatternTests
 ```
-
+### Fixing the Bug:
+ `NumPatternTests.java` and `test.sh` were not edited at all when fixing the bug, but lines 11 and 14 of `NumPattern.java` were the lines that triggered the bug when `bash test.sh` was entered into the terminal, where the test would fail in line 15 of `NumPatternTests.java` as the `pingPongPattern()` method would not produce the expected array of `{1, 3, 7, 9, 13}`. What I did was edit lines 11 and 15 of `NumPattern.java` such that the argument integer, `base`, would be added upon based on `i`'s value in the for loop, such that odd indices would contain the sum of the previous number plus 2, while even indices (0 excluded) would be contain the sum of the previous number plus 4. In this code, `base` would not be altered at all, with the same 2 numbers (either the sum of `base` and 2 or the sum of `base` and 4) being in the `result` array after the element at index 0, which is `base`.
+ 
 ## Part 2:
