@@ -23,7 +23,7 @@ import java.util.List;
 
 class NumPattern {
 
-  static List<Integer> pingPong(Integer base) {
+  static List<Integer> pingPongPattern(Integer base) {
     List<Integer> result = new ArrayList<Integer>();
     result.add(base);
     for(int i = 1; i < 5; i++){
@@ -40,6 +40,32 @@ class NumPattern {
 }
 
 ```
+`NumPatternTests.java`:
+```
+import static org.junit.Assert.*;
+import org.junit.*;
+import java.util.*;
 
+
+public class NumPatternTests {
+	@Test(timeout = 500)
+	public void testPingPongPattern() {
+		List<Integer> exp = new ArrayList<Integer>();
+		exp.add(1);
+		exp.add(3);
+		exp.add(7);
+		exp.add(9);
+		exp.add(13);
+		assertArrayEquals(exp.toArray(), NumPattern.pingPongPattern(1).toArray());
+	}
+
+}
+
+```
+`test.sh`:
+```
+javac -cp ".;lib/hamcrest-core-1.3.jar;lib/junit-4.13.2.jar" *.java
+java -cp ".;lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore NumPatternTests
+```
 
 ## Part 2:
