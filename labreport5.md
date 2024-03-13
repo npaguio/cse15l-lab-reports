@@ -12,4 +12,7 @@
 
 ![Image](ProperOutput.png)
 
+### Setup Information:
+The files used were `NumPattern.java`, `NumPatternTests.java`, and a `test.sh` file that compiled what was necessary to use `NumPatternTests.java` (ex. JUnit, `NumPatternTests.java` itself). The directory was `Downloads/lab-7-main/lab-7-main
+
 ## Part 2:
